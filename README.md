@@ -3,7 +3,6 @@
 
 <h3>Tools and dependencies:</h4>
 <br />
-<br />
 
 - ReactJS
 - Bootstrap
