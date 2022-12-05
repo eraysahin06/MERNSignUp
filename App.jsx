@@ -59,9 +59,6 @@ class App extends Component {
             email: '',
             password: ''
         })
-
-
-
     }
 
     render() { 
@@ -104,23 +101,7 @@ class App extends Component {
                         
                     </div>
 
-
-
-
-
-
-
-
-
-
-
-
                 </div>
-
-
-
-
-
             </div>
         )
     }
