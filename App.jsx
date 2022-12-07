@@ -22,7 +22,7 @@ class App extends Component {
             fullName: event.target.value
         })
     }
-
+    
     changeUsername = (event) => {
         this.setState({
             username: event.target.value
@@ -52,7 +52,6 @@ class App extends Component {
 
         axios.post('http://localhost:4000/app/signup', registered)
         .then(response => console.log(response.data))
-
         this.setState({
             fullName: '',
             username: '',
