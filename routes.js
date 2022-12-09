@@ -5,7 +5,6 @@ const singUpTemplateCopy = require('../models/SignUpModels');
 const bcrypt = require('bcrypt');
 
 router.post('/signup', async(request, response) =>{
-
     const saltPassword =  await bcrypt.genSalt(10);
     const securePassword = await bcrypt.hash(request.body.password, saltPassword);
     const signedUpUser = new singUpTemplateCopy({
