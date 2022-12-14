@@ -1,4 +1,5 @@
 POST http://localhost:4000/app/signup
+
     Content-Type: application/json
     {
         "fullName":"Eray Sahin",
