@@ -14,10 +14,10 @@ router.post('/signup', async(request, response) =>{
         password: securePassword
     })
     signedUpUser.save().then(data => {
-        response.json(data)
+        response.json(data);
     }).catch(error => {
-        response.json(error)
+        response.json(error);
     })
 });
 
-module.exports = router
+module.exports = router;
