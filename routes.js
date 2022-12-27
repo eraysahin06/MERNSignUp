@@ -18,5 +18,4 @@ router.post('/signup', async(request, response) =>{
         response.json(error);
     })
 });
-
 module.exports = router;
